@@ -10,9 +10,8 @@ char low, upr;
 
 for (low = 'a'; low <= 'z'; low++)
 putchar(low);
-
   
-for(upr = 'A'; upr <= 'Z'; upr++)
+for (upr = 'A'; upr <= 'Z'; upr++)
 putchar(upr);
 putchar('\n');
 return (0);
