@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Prints a text acceording to number
- * Return : 0 (Success)
+ * Return: 0 (Success)
  *
  */
 
