@@ -2,7 +2,7 @@
 /**
  * _sign -  prints the sign of a number
  * @n : the integer that will be checked
- * Return: 1 for integer greater than zero, 0 if the integer is 0 and -1 if the integer is less than zero
+ * Return: 1 if n > zero, -1 if n <0 and 0 if n=0
  */
 int print_sign(int n)
 {
