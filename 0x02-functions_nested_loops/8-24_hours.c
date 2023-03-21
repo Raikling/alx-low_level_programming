@@ -5,12 +5,12 @@
  */
 void jack_bauer(void)
 {
-int i,j,n,m;
+int i, j, n, m;
 for (i = 0; i <= 2; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-if ((i <= 1 && j <=9) || (i <=2 && j <= 3))
+if ((i <= 1 && j <= 9) || (i <= 2 && j <= 3))
 {
 for (n = 0; n <= 5; n++)
 {
