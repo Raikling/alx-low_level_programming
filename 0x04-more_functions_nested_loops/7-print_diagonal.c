@@ -20,7 +20,7 @@ for (j = 0; j < i; j++)
 _putchar(32);
 }
 _putchar(92);
+ _putchar('\n'); 
 }
-_putchar('\n');
 }
 }
