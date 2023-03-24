@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_line - draws a straight line in the terminal
- * @n : numbers of lines to draw
- * Return: nothing
+ * @n: numbers of lines to draw
+ * Return: void
  */
 void print_line(int n)
 {
