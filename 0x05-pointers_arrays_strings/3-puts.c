@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "main.h"
 /**
  *3-puts.c - 3-puts.c
  * @str: string to print
