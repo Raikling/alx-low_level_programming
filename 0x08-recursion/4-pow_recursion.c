@@ -1,5 +1,5 @@
 /**
- *_pow_recursion : function that returns the value of x powered by y
+ *_pow_recursion - function that returns the value of x powered by y
  *@x: base number
  *@y: power number
  *Return: result of the power operation
