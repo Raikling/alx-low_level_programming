@@ -1,3 +1,4 @@
+#include "_putchar.c"
 /**
  * _puts_recursion - function 
  * @s: input
