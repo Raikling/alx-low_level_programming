@@ -1,0 +1,5 @@
+#inclde "main.h"
+
+int _atoi(char *s)
+{
+}
