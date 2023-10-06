@@ -6,15 +6,16 @@
  */
 int main(void)
 {
+char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
-for (i = 97; i < 123; i++)
+for (i = 0; i < 26; i++)
 {
-if (i != 101 && i != 113)
+if (alpha[i] == 'q' || alpha[i] == 'e')
 {
-putchar(i);
+continue;
 }
+putchar(alpha[i]);
 }
 putchar(alpha'\n');
 return (0);
-}
-
+} 
