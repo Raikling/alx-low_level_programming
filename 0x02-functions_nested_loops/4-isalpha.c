@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks for alphabetic character
  * @c : to be checked
- * Return: nothing(void)
+ * Return: 1 if lowercase otherwise 0
  */
 int _isalpha(int c)
 {
