@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * main - program to sum the natural num divadable by 3 or 5
  * Return: always (0)
