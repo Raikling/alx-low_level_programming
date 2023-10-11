@@ -30,6 +30,7 @@ else if (k <= 99 && k >= 10)
 _putchar((k / 10) + 48);
 _putchar((k % 10) + 48);
 }
+_putchar('\n');
 }
 }
 }
