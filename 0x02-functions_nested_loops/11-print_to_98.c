@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_to_98 - prints all natural nums from n to 98
  * @n : starting number
