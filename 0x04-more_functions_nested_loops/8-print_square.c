@@ -12,3 +12,4 @@ for (col = 1; col <= size; col++)
 _putchar('#');
 _putchar('\n');
 }
+}
