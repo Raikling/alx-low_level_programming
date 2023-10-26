@@ -9,9 +9,10 @@ int square(int n, int i)
 {
 	if (i * i == n)
 		return (i);
-	else if (i * i > 4)
+	else if (i * i < n)
+		return (square(n, i + 1));
+	else
 		return (-1);
-	return (square(n, i + 1));
 }
 /**
  * _sqrt_recursion - return the natural square root
@@ -20,5 +21,5 @@ int square(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	return (square(n, 0));
+	return (square(n, 1));
 }
