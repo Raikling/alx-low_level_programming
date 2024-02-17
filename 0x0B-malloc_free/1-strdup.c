@@ -25,5 +25,5 @@ else
 for (; i < size; i++)
 m[i] = str[i];
 }
-return (0);
+return (m);
 }
