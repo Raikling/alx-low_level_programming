@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * strdup - returns a pointer to a newly allocated space with copy of string
+ * _strdup - returns a pointer to a newly allocated space with copy of string
  *@str : string
  *Return: 0
  */
 
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 int i = 1, size = 1;
 char *m;
 
-if (srt == NULL)
+if (str == NULL)
 return (NULL);
 
 for (; str[size] != \0; size++)
