@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _strdup - returns a pointer to a newly allocated space with copy of string
  *@str : string
@@ -13,7 +14,7 @@ char *m;
 if (str == NULL)
 return (NULL);
 
-for (; str[size] != \0; size++)
+for (; str[size] != '\0'; size++)
 m = (size * sizeof(str));
 
 if (m == 0)
