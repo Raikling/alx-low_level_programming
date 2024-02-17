@@ -22,7 +22,7 @@ if (m == 0)
 return (NULL);
 else
 {
-for (; i == size; i++)
+for (; i < size; i++)
 m[i] = str[i];
 }
 return (0);
