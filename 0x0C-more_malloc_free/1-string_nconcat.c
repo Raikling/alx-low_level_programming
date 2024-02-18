@@ -6,11 +6,11 @@
  * @s1 : string
  * @s2 : string
  * @n : int
- * Return: string
+ * Return: pointer to string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int size1, size2, i, j;
+unsigned int size1, size2, i, j;
 char *str;
 if (s1 == NULL)
 s1 = "";
@@ -23,6 +23,7 @@ for (size2 = 0; s2[size2] != '\0'; size2++)
 ;
 
 str = malloc(size1 + n + 1);
+
 if (str == NULL)
 {
 return (NULL);
