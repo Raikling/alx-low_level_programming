@@ -44,7 +44,6 @@ int op_div(int a, int b)
 {
 return (a / b);
 }
-
 /**
  * op_mod - modulo of a and b
  * @a: int
