@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 
+
 /**
  * sum_them_all - returns the sum of all params
  * @n: number of args
@@ -17,7 +18,7 @@ return (0);
 va_start(ap, n);
 
 while (i--)
-sum += va_arg(ap, n);
+sum += va_arg(ap, int);
 va_end(ap);
 return (sum);
 }
