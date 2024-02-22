@@ -1,0 +1,74 @@
+#include "variadic_functions.h"
+
+/**
+ * format_char - char format
+ * @separator: string separator
+ * @ap: argument pointer
+ */
+
+void format_char(char *separator, va_list ap)
+{
+printf("%s%c", separator, va_arg(ap, int));
+}
+
+/**
+ * format_int - int format
+ * @separator: string separator
+ * @ap: argument pointer
+ */
+
+void format_int(char *separator, va_list ap)
+{
+printf("%s%d", separator, va_arg(ap, int));
+}
+
+/**
+ * format_float - float format
+ * @separator: string separator
+ * @ap: argument pointer
+ */
+
+void format_float(char *separator, va_list ap)
+{
+printf("%s%f", separator, va_arg(ap, double));
+}
+
+/**
+ * format_str - string format
+ * @separator: string separator
+ * @ap: argument pointer
+ */
+
+void format_str(char *separator, va_list ap)
+{
+char *strp = va_arg(ap, char *);
+switch ((int)(!str))
+case 1:
+strp = "(nil)";
+printf("%s%s", separator, strp);
+}
+
+/**
+ * print_all - prints ANYTHING
+ * @format: the format string
+ * Return: void
+ */
+
+void print_all(const char * const format, ...)
+{
+  int i = 0, j;
+  char *separator = "";
+  va_list ap;
+  args_t agrs [] = {
+		    {"c", format_char},
+		    {"i", format_int},
+		    {"f", format_float},
+		    {"s", format_str},
+		    {NULL, NULL}
+  };
+
+  va_start(ap, format);
+  while (format && format[i])
+    {
+      j = 0;
+      while (args[j].arg)
